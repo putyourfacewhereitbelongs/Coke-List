@@ -1,0 +1,24 @@
+{
+  "name": "harrys-rtd-training-system",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Harry's Convenience Stores — Ready-to-Drink Beverage Training System",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "catalog": "node tools/build-catalog.mjs --write",
+    "test:smoke": "node tools/smoke-test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^30.1.1",
+    "vite": "^5.4.11"
+  }
+}
